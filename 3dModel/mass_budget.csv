@@ -1,0 +1,33 @@
+group,item,mass_g,x_mm,y_mm,z_mm,note
+Printed,Main body (PETG),95.90,0.0,102.1,-0.0,"Bambu sliced (H2C 0.4, 0.20mm Std, 35% grid); estimate was 93.24 g"
+Printed,Hanging beam (PETG),7.33,0.0,242.5,-0.0,"Bambu sliced (H2C 0.4, 0.20mm Std, 35% grid); estimate was 7.14 g"
+Printed,Bumper 1 (TPU AMS),56.68,36.7,178.5,0.0,"Bambu sliced (H2C 0.4, 0.20mm Std, 35% grid); estimate was 58.48 g"
+Printed,Bumper 2 (TPU AMS),56.68,-36.7,178.5,0.0,"Bambu sliced (H2C 0.4, 0.20mm Std, 35% grid); estimate was 58.48 g"
+Printed,BatteryClips (TPU AMS),2.92,0.0,162.9,14.8,"Bambu sliced (H2C 0.4, 0.20mm Std, 35% grid); estimate was 3.08 g"
+Drive,Gearmotor 30:1 HPCB L,9.5,-28.1,0,0
+Drive,Wheel 40x7 L,3.2,-42.1,0,0
+Drive,Motor bracket ext. L,0.8,-27.0,1.5,0.1
+Drive,Magnetic encoder L,0.5,-9.6,3.3,0
+Wiring,JST-SH encoder cable L,2.0,-15,15,3.0,z shifted -1mm for Extrude32 side2=2.5mm
+Battery,18650 LG HE4 L,46.0,-16.0,164.3,7.5,z shifted -1mm for Extrude32 side2=2.5mm
+Battery,18650 holder (bought) L,8.0,-16.1,162.5,3.5,z shifted -1mm for Extrude32 side2=2.5mm
+Drive,Gearmotor 30:1 HPCB R,9.5,28.1,0,0
+Drive,Wheel 40x7 R,3.2,42.1,0,0
+Drive,Motor bracket ext. R,0.8,27.0,1.5,0.1
+Drive,Magnetic encoder R,0.5,9.6,3.3,0
+Wiring,JST-SH encoder cable R,2.0,15,15,3.0,z shifted -1mm for Extrude32 side2=2.5mm
+Battery,18650 LG HE4 R,46.0,16.0,164.3,7.5,z shifted -1mm for Extrude32 side2=2.5mm
+Battery,18650 holder (bought) R,8.0,16.1,162.5,3.5,z shifted -1mm for Extrude32 side2=2.5mm
+Electronics,Carrier PCB 80x50x1.6 (modeled),12.0,0,62.5,0.8,rough body
+Electronics,Carrier components block 44x74x5 (modeled),20.0,0,62.5,4.1,rough body
+Electronics,Carrier female headers (modeled),3.0,0,62.5,5.85,rough body
+Electronics,Nano ESP32 18x45x3.2 (modeled),7.0,0,62.5,11.7,rough body
+Fasteners,M3x6 x4 + nylon washers,2.2,0,62.5,2.5,z shifted -1mm for Extrude32 side2=2.5mm
+Fasteners,M3x10+nut x2 (battery clamp),2.4,0,163,16.0,z shifted -1mm for Extrude32 side2=2.5mm
+Fasteners,M3x10+nut x3 bumper L,3.6,-33,120,0
+Fasteners,M3x10+nut x3 bumper R,3.6,33,120,0
+Fasteners,M4x20 + nut x2 (beam),7.0,0,242.5,0
+Wiring,XT30 + battery/power wiring,6.0,0,120,4.0,z shifted -1mm for Extrude32 side2=2.5mm
+TOTAL,,426.3,0.00,133.28,0.00,"Fusion result with sliced masses, CoM_TrayOffset=8mm (saved)"
+VARIANT 1 battery (BOM qty),,373.5,-2.32,128.47,2.12
+NOTE,"Tray items (carrier, Nano, batteries, holders, M3x6, wiring) are 5.5 mm lower in -z than listed z at CoM_TrayOffset=2.5",,,,,
